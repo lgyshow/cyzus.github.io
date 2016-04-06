@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="python," />
 
 
 
@@ -57,19 +57,22 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="又来一波程序~~今天分享的是阶乘程序
+阶乘这个程序的体验是这样的，要求用户输入一个正整数，比如说输入“5”，程序便会输出120，是由1  2  3  4  5得来的，阶乘是没有任何简便的公式的，那么要怎么做才能让python得出答案呢
+思路既然没有公式，我们只能让python做暴力计算了，搞一个有限循环，循环次数就是输入的值。内容就是从1开始乘，每次循环都让乘数加1。于是有了思路就可以开始编程了">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://cyzus.github.io/2016/04/06/hello-world/index.html">
+<meta property="og:title" content="python阶乘小程序">
+<meta property="og:url" content="http://cyzus.github.io/2015/10/17/factorial-function/index.html">
 <meta property="og:site_name" content="Cyzus' Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2016-04-06T07:31:22.831Z">
+<meta property="og:description" content="又来一波程序~~今天分享的是阶乘程序
+阶乘这个程序的体验是这样的，要求用户输入一个正整数，比如说输入“5”，程序便会输出120，是由1  2  3  4  5得来的，阶乘是没有任何简便的公式的，那么要怎么做才能让python得出答案呢
+思路既然没有公式，我们只能让python做暴力计算了，搞一个有限循环，循环次数就是输入的值。内容就是从1开始乘，每次循环都让乘数加1。于是有了思路就可以开始编程了">
+<meta property="og:updated_time" content="2015-10-17T11:52:43.484Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="python阶乘小程序">
+<meta name="twitter:description" content="又来一波程序~~今天分享的是阶乘程序
+阶乘这个程序的体验是这样的，要求用户输入一个正整数，比如说输入“5”，程序便会输出120，是由1  2  3  4  5得来的，阶乘是没有任何简便的公式的，那么要怎么做才能让python得出答案呢
+思路既然没有公式，我们只能让python做暴力计算了，搞一个有限循环，循环次数就是输入的值。内容就是从1开始乘，每次循环都让乘数加1。于是有了思路就可以开始编程了">
 
 
 
@@ -87,7 +90,7 @@ Quick">
   };
 </script>
 
-  <title> Hello World | Cyzus' Blog </title>
+  <title> python阶乘小程序 | Cyzus' Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -207,7 +210,7 @@ Quick">
             
             
               
-                Hello World
+                python阶乘小程序
               
             
           </h1>
@@ -219,8 +222,8 @@ Quick">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-04-06T15:31:22+08:00" content="2016-04-06">
-              2016-04-06
+            <time itemprop="dateCreated" datetime="2015-10-17T09:00:00+08:00" content="2015-10-17">
+              2015-10-17
             </time>
           </span>
 
@@ -230,8 +233,8 @@ Quick">
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/04/06/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/06/hello-world/" itemprop="commentsCount"></span>
+                <a href="/2015/10/17/factorial-function/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/17/factorial-function/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -253,15 +256,24 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>又来一波程序~~今天分享的是阶乘程序</p>
+<h2 id="阶乘"><a href="#阶乘" class="headerlink" title="阶乘"></a>阶乘</h2><p>这个程序的体验是这样的，要求用户输入一个正整数，比如说输入“5”，程序便会输出120，是由1 <em> 2 </em> 3 <em> 4 </em> 5得来的，阶乘是没有任何简便的公式的，那么要怎么做才能让python得出答案呢</p>
+<h3 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h3><p>既然没有公式，我们只能让python做暴力计算了，搞一个有限循环，循环次数就是输入的值。内容就是从1开始乘，每次循环都让乘数加1。于是有了思路就可以开始编程了</p>
+<h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol>
+<li>系统请求用户输入正整数</li>
+<li>用户输入</li>
+<li>系统确认输入数值是否有效（正整数），无效的话提示error</li>
+<li>设定计算初始值为1</li>
+<li>确认循环次数为用户输入数值</li>
+<li>一次循环里的算法是：设定的初始值乘以已经循环的次数</li>
+<li>循环完输出最终计算值</li>
+<li>可选：永久循环，从头开始，要求用户输入正整数</li>
+</ol>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><blockquote>
+<p>var = 1<br>while var ==1:<br>&#8195;&#8195;      num = input (“input a num:”)<br>&#8195;&#8195;      if num%1 == 0:<br>&#8195;&#8195;  &#8195;&#8195;          cal = 1<br>&#8195;&#8195;  &#8195;&#8195;          for count in range(1,num+1):<br>&#8195;&#8195;  &#8195;&#8195;  &#8195;&#8195;              cal = cal*count<br>&#8195;&#8195;  &#8195;&#8195;          print cal<br>&#8195;&#8195;        else:<br>&#8195;&#8195;  &#8195;&#8195;         print “invalid number”</p>
+</blockquote>
+<p>看完后是不是发现其实很简单？</p>
+<p>欢迎大家评论！！</p>
 
       
     </div>
@@ -280,7 +292,31 @@ Quick">
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/python/" rel="tag">#python</a>
+          
+        </div>
+      
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/10/16/ticket-system/" rel="next" title="(垃圾)购票系统">
+                <i class="fa fa-chevron-left"></i> (垃圾)购票系统
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/10/19/quadratic-equation-with-one-unknown-py/" rel="prev" title="python解决一元二次方程">
+                python解决一元二次方程 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
@@ -303,8 +339,8 @@ Quick">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/04/06/hello-world/"
-           data-title="Hello World" data-url="http://cyzus.github.io/2016/04/06/hello-world/">
+      <div class="ds-thread" data-thread-key="2015/10/17/factorial-function/"
+           data-title="python阶乘小程序" data-url="http://cyzus.github.io/2015/10/17/factorial-function/">
       </div>
     
   </div>
@@ -349,13 +385,20 @@ Quick">
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">10</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
 
           
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -383,7 +426,7 @@ Quick">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#阶乘"><span class="nav-number">1.</span> <span class="nav-text">阶乘</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#思路"><span class="nav-number">1.1.</span> <span class="nav-text">思路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#流程"><span class="nav-number">1.2.</span> <span class="nav-text">流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考"><span class="nav-number">1.3.</span> <span class="nav-text">参考</span></a></li></ol></li></ol></div>
             
           </div>
         </section>

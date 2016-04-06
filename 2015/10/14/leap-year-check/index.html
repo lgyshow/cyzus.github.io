@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="python," />
 
 
 
@@ -57,15 +57,25 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Cyzus' Blog">
-<meta property="og:url" content="http://cyzus.github.io/archives/2016/index.html">
+<meta name="description" content="今天带来了一个小程序——闰年识别
+原理我们都知道闰年的机制是“四年一闰，百年不闰，四百年一闰”，所以小程序如下所示：
+
+year = input (“pleaz input year:” )if (year % 100 == 0) and (year % 400 == 0) or (year % 100 == 1) and (year % 4 == 0):&amp;#8195;&amp;#8195;print (">
+<meta property="og:type" content="article">
+<meta property="og:title" content="闰年识别系统">
+<meta property="og:url" content="http://cyzus.github.io/2015/10/14/leap-year-check/index.html">
 <meta property="og:site_name" content="Cyzus' Blog">
-<meta property="og:description">
+<meta property="og:description" content="今天带来了一个小程序——闰年识别
+原理我们都知道闰年的机制是“四年一闰，百年不闰，四百年一闰”，所以小程序如下所示：
+
+year = input (“pleaz input year:” )if (year % 100 == 0) and (year % 400 == 0) or (year % 100 == 1) and (year % 4 == 0):&amp;#8195;&amp;#8195;print (">
+<meta property="og:updated_time" content="2015-10-15T11:51:22.352Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Cyzus' Blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="闰年识别系统">
+<meta name="twitter:description" content="今天带来了一个小程序——闰年识别
+原理我们都知道闰年的机制是“四年一闰，百年不闰，四百年一闰”，所以小程序如下所示：
+
+year = input (“pleaz input year:” )if (year % 100 == 0) and (year % 400 == 0) or (year % 100 == 1) and (year % 4 == 0):&amp;#8195;&amp;#8195;print (">
 
 
 
@@ -83,7 +93,7 @@
   };
 </script>
 
-  <title> Archive | Cyzus' Blog </title>
+  <title> 闰年识别系统 | Cyzus' Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -104,7 +114,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -182,66 +192,138 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
-
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      Um..! 10 posts in total. Keep on posting.
-    </span>
-
+  <div id="posts" class="posts-expand">
     
 
-      
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                闰年识别系统
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2015-10-14T09:00:00+08:00" content="2015-10-14">
+              2015-10-14
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2015/10/14/leap-year-check/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/10/14/leap-year-check/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
+        <p>今天带来了一个小程序——闰年识别</p>
+<h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>我们都知道闰年的机制是“四年一闰，百年不闰，四百年一闰”，所以小程序如下所示：</p>
+<blockquote>
+<p>year = input (“pleaz input year:” )<br>if (year % 100 == 0) and (year % 400 == 0) or (year % 100 == 1) and (year % 4 == 0):<br>&#8195;&#8195;print (“this is a leap year”)<br>else:<br>&#8195;&#8195;print (“this isn’t a leap year”)</p>
+</blockquote>
+<h3 id="包装"><a href="#包装" class="headerlink" title="包装"></a>包装</h3><p>加上包装</p>
+<blockquote>
+<p>var = 1<br>while var == 1 :<br>&#8195;&#8195;    year = input (“pleaz input year:” )<br>&#8195;&#8195;    if (year%100 == 0) and (year%400 == 0) or (year%100 == 1) and (year%4 == 0):<br>&#8195;&#8195;&#8195;&#8195;        print (“this is a leap year”)<br>&#8195;&#8195;    else:<br>&#8195;&#8195;&#8195;&#8195;        print (“this isn’t a leap year”)<br>        import time<br>        for a in range (1,4):<br>            time.sleep (0.2)<br>            print “…”<br>          time.sleep (0.2)</p>
+</blockquote>
+
+      
+    </div>
+    
+    <div>
+      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/python/" rel="tag">#python</a>
+          
         </div>
       
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/07/14/code/" rel="next" title="重定位">
+                <i class="fa fa-chevron-left"></i> 重定位
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/10/16/ticket-system/" rel="prev" title="(垃圾)购票系统">
+                (垃圾)购票系统 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
       
 
       
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
-        
-            <a class="post-title-link" href="/2016/02/16/ticket/" itemprop="url">
-              
-                <span itemprop="name">售票系统2.0</span>
-              
-            </a>
-        
-      </h1>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-02-16T09:00:00+08:00"
-              content="2016-02-16" >
-          02-16
-        </time>
-      </div>
-
-    </header>
+      
+    </footer>
   </article>
 
 
 
-    
-
-  </section>
-
-  
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -249,6 +331,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2015/10/14/leap-year-check/"
+           data-title="闰年识别系统" data-url="http://cyzus.github.io/2015/10/14/leap-year-check/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -268,8 +358,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.png"
@@ -314,6 +413,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#原理"><span class="nav-number">1.</span> <span class="nav-text">原理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#包装"><span class="nav-number">2.</span> <span class="nav-text">包装</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -405,11 +515,9 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=0.5.0"></script>
+
 
 
   
