@@ -369,23 +369,21 @@
       
         
           
-            <p>又来一波垃圾程序</p>
-<h2 id="购票系统"><a href="#购票系统" class="headerlink" title="购票系统"></a>购票系统</h2><p>简单说明一下这个程序：</p>
-<p><strong><em>票价20，买10张票或以上打九折，买20张票或以上打八折，一次最多购买25张票</em></strong></p>
-<h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol>
-<li>系统请求用户输入购票数目</li>
-<li>用户输入数目</li>
-<li>系统确认输入数值是否有效（大于0小于26，整数），无效的话提示error</li>
-<li>确认数值所在范围（1~9、10~19、20~25）</li>
-<li>票价 <em> 数目 </em> 相应折扣</li>
-<li>输出所需金额</li>
-</ol>
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><blockquote>
-<p>var = 1<br>while var ==1:<br>&#8195;&#8195;    num = input(“how many tickets do u want:”)<br>&#8195;&#8195;    if num &gt; 0 and num &lt; 26 and num%1 ==0:<br>&#8195;&#8195;&#8195;&#8195;        if num &lt; 10:<br>&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;            print num <em> 20<br>&#8195;&#8195;&#8195;&#8195;        if num &lt; 20 and num &gt; 9:<br>&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;            print num </em> 20 <em> 0.9<br>&#8195;&#8195;&#8195;&#8195;        if num &lt; 26 and num &gt; 19:<br>&#8195;&#8195;&#8195;&#8195;&#8195;&#8195;            print num </em> 20 * 0.8<br> &#8195;&#8195;   else:<br>&#8195;&#8195;&#8195;&#8195;       print “invalid number”</p>
-</blockquote>
-<p>欢迎评论！！</p>
+          又来一波垃圾程序
+购票系统简单说明一下这个程序：
+票价20，买10张票或以上打九折，买20张票或以上打八折，一次最多购买25张票
+流程
+系统请求用户输入购票数目
+用户输入数目
+系统确认输入数值是否有效（大于0小于26，整数），无效的话提示error
+确认数值所在范围（1~9、10~19、20~25）
+          ...
 
-          
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/10/16/ticket-system/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -483,17 +481,17 @@
       
         
           
-            <p>今天带来了一个小程序——闰年识别</p>
-<h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>我们都知道闰年的机制是“四年一闰，百年不闰，四百年一闰”，所以小程序如下所示：</p>
-<blockquote>
-<p>year = input (“pleaz input year:” )<br>if (year % 100 == 0) and (year % 400 == 0) or (year % 100 == 1) and (year % 4 == 0):<br>&#8195;&#8195;print (“this is a leap year”)<br>else:<br>&#8195;&#8195;print (“this isn’t a leap year”)</p>
-</blockquote>
-<h3 id="包装"><a href="#包装" class="headerlink" title="包装"></a>包装</h3><p>加上包装</p>
-<blockquote>
-<p>var = 1<br>while var == 1 :<br>&#8195;&#8195;    year = input (“pleaz input year:” )<br>&#8195;&#8195;    if (year%100 == 0) and (year%400 == 0) or (year%100 == 1) and (year%4 == 0):<br>&#8195;&#8195;&#8195;&#8195;        print (“this is a leap year”)<br>&#8195;&#8195;    else:<br>&#8195;&#8195;&#8195;&#8195;        print (“this isn’t a leap year”)<br>        import time<br>        for a in range (1,4):<br>            time.sleep (0.2)<br>            print “…”<br>          time.sleep (0.2)</p>
-</blockquote>
+          今天带来了一个小程序——闰年识别
+原理我们都知道闰年的机制是“四年一闰，百年不闰，四百年一闰”，所以小程序如下所示：
 
-          
+year = input (“pleaz input year:” )if (year % 100 == 0) and (year % 400 == 0) or (year % 1
+          ...
+
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2015/10/14/leap-year-check/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -620,7 +618,7 @@
       <div class="footer-inner">
         <div class="copyright" >
   
-  &copy; 
+  &copy;  2015 - 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
